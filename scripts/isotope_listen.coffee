@@ -15,4 +15,4 @@ module.exports = (robot) ->
         user = robot.userForId 'broadcast'
         robot.send user, message
           
-  server.listen 9292, "0.0.0.0"
+  server.listen 32888, "0.0.0.0"
